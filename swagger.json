@@ -5,10 +5,9 @@
     "description": "API for managing user contacts",
     "version": "1.0.0"
   },
-  "host": "cse341-ed7y.onrender.com",
+  "host": "cse341-ed7y.onrender.com/",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
