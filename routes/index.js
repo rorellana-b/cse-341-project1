@@ -1,8 +1,11 @@
 const router = require("express").Router();
 
-//router.get("/", (req, res) => {
-// res.send("Hello Ronal");
-//});
+router.use("/", require("./swagger"));
+
+router.get("/", (req, res) => {
+  //#swagger.tags = ['Hello Ronal']
+  res.send("Hello Ronal");
+});
 
 router.use("/contacts", require("./contacts"));
 
